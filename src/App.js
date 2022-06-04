@@ -14,7 +14,7 @@ const signOutUser=()=>{
 signOut(auth).then(()=>{
   localStorage.clear();//delete the isAuth's value
   setIsAuth(false);
-  window.location.pathname("/login");//we haven't used useNavigate here because we cant use any component from react-router-dom outside the router component.
+  window.location.pathname="/login";//we haven't used useNavigate here because we cant use any component from react-router-dom outside the router component.
 })
 }
   return (
