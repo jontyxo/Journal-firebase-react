@@ -23,16 +23,16 @@ navigate("/login");
   return (
     <div className="createPostPage">
         <div className="cpContainer">
-            <h1>Create a Post</h1>
+            <h1 className="create-post-head">Create a Post</h1>
             <div className="inputGp">
-                <label>Title:</label>
+                <label className="label-create-post">Title:</label>
                 <input placeholder="Title..." 
                 onChange={(event)=>{setTitle(event.target.value)}} 
 
                 />
             </div>
             <div className="inputGp">
-                <label>Post:</label>
+                <label className="label-create-post">Post:</label>
                 <textarea placeholder="Post..." 
                 onChange={(event)=>{setPostText(event.target.value)}} 
 

@@ -15,7 +15,7 @@ let navigate=useNavigate();
     }
   return (
     <div className="loginPage">
-        <p>Sign in with Google to Continue</p>
+        <p className="p-login">Sign in with Google to Continue</p>
         <button className="login-with-google-btn" onClick={signInWithGoogle}>
             Sign in with Google
         </button>
